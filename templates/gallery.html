@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www.vveklabs.in</title>
+  <link href="{{ url_for('static', path='assets/assets/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/assets/css/all.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='assets/assets/css/animate.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='assets/assets/plugins/slider/css/owl.carousel.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/plugins/slider/css/owl.theme.default.css') }}" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/images/fav.jpg">
+  
+</head>
+
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./logo.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <style>
+  .moreText {
+    display: none;
+  }
+  .read-more-btn {
+    padding: 15px 60px;
+    background-color: rgb(149, 170, 197);
+    color: rgb(53, 49, 49);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .card-text.show-more .moreText {
+    display: inline;
+  }
+  .card-text.show-more .dots {
+    display: none;
+  }</style>
+
+<link href="{{ url_for('static', path='/assets/css/style.css') }}" rel="stylesheet">
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+    rel="stylesheet">
+    <link href="{{ url_for('static', path='/assets/assets/plugins/slider/css/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', path='/assets/plugins/slider/css/owl.theme.default.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', path='assets/assets/css/style.css') }}" type="text/css" rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="contact-list">
+
+          <li class="contact-item">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <a href="mailto:vivek.iitian@gmail.com" class="contact-link">vivek.iitian@gmail.com</a>
+          </li>
+
+          <li class="contact-item">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <a href="tel:+917052101786" class="contact-link">+91-(0661)246-2685</a>
+          </li>
+
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="/" class="logo">Vvekslab</a>
+
+    
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li>
+              <a href="/" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="/research" class="navbar-link" data-nav-link>Research</a>
+            </li>
+
+            <li>
+              <a href="/teams" class="navbar-link" data-nav-link>Teams</a>
+            </li>
+
+            <li>
+              <a href="/publication" class="navbar-link" data-nav-link>Publication</a>
+            </li>
+
+            <li>
+              <a href="/labnews" class="navbar-link" data-nav-link>Labnews </a>
+            </li>
+
+            <li>
+              <a href="/gallery" class="navbar-link" data-nav-link>Gallery</a>
+            </li>
+
+            <li>
+              <a href="/contactus" style="margin-right: 15px;"class="navbar-link" data-nav-link>ContactUs</a>
+            </li>
+
+          </ul>
+        </nav>
+        
+
+
+
+
+        <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+          <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+          <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+        </button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+  <!--  ************************* Page Title Starts Here ************************** -->
+        
+  <div class="page-nav no-margin row">
+    <div class="container">
+        <div class="row">
+            <h2>Our Gallery</h2>
+            <ul>
+                <li> <a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><i class="fas fa-angle-double-right"></i> Gallery</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<!--  ************************* Gallery Starts Here ************************** -->
+    <div id="portfolio" class="gallery">    
+       <div class="container">
+          
+          <div class="row">
+            
+
+    <div class="gallery-filter d-none d-sm-block">
+        <button class="btn btn-default filter-button" data-filter="all">All</button>
+        <button class="btn btn-default filter-button" data-filter="hdpe">Our Work</button>
+        <button class="btn btn-default filter-button" data-filter="sprinkle">Our Events</button>
+        
+    </div>
+    <br/>
+
+    <a href="#" id="pop">
+        <div class="filter hdpe">
+            <img id="imageresource" src="assets/images/gallery1.png" class="img-responsive"  style="width: 350px; height: 364px; margin: 5px;">
+            
+        </div>
+       </a>
+    
+       <a href="#" id="pop1">
+        <div class="filter sprinkle">
+            <img id="imageresource1" src="assets/images/galler.png" class="img-responsive"  style="width: 350px; height: 364px;margin: 5px;">
+        
+        </div>
+       </a>
+
+       <a href="#" id="pop2">
+        <div class="filter sprinkle">
+            <img id="imageresource2" src="assets/images/gallery2.png" class="img-responsive"  style="width: 350px; height: 364px;margin: 5px;">
+        
+        </div>
+       </a>
+       <a href="#" id="pop3">
+        <div class="filter sprinkle">
+            <img id="imageresource3" src="assets/images/gallery3.png" class="img-responsive"  style="width: 350px; height: 364px;margin: 5px;">
+        
+        </div>
+       </a>
+       <a href="#" id="pop4">
+        <div class="filter sprinkle">
+            <img id="imageresource4" src="assets/images/gallery6.png" class="img-responsive"  style="width: 350px; height: 364px;margin: 5px;">
+        
+        </div>
+       </a>
+    <!-- Creates the bootstrap modal where the image will appear -->
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div class="modal-body">
+            <img src="" id="imagepreview" style="width: 464px; height: 464px;" >
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+
+
+<!-- 
+        <div class="gallery_product col-lg-5 col-md-5 col-sm-6 col-xs-6 filter hdpe">
+            <img src="assets/images/events/img1.PNG" class="img-responsive" onclick="enlargeImg(this)">
+        </div>
+
+        <div class="gallery_product col-lg-5 col-md-6 col-sm-6 col-xs-6 filter sprinkle">
+            <img src="assets/images/events/img2.jpg" class="img-responsive" onclick="enlargeImg(this)">
+        </div> -->
+
+        
+    </div>
+</div>
+   
+   
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+   
+ 
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Vvekslab</a>
+
+          <p class="footer-text">
+            RNAi & Functional Genomics Lab.
+
+            Department of Life Science
+            National Institute of Technology, Rourkela
+            Rourkela - 769 008
+            Odisha, INDIA
+          </p>
+
+          <div class="schedule">
+            <div class="schedule-icon">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+
+            <span class="span">
+              Monday - Saturday:<br>
+              9:00am - 10:00Pm
+            </span>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Other Links</p>
+          </li>
+
+          <li>
+            <a href="index.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="teams.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Teams</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="reseach.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Research</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Project</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="teams.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Our Team</span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="gallery.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Gallery</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="uselink.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Useful Links</span>
+            </a>
+          </li>
+
+        </ul>
+
+      
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="item-text">
+              RNAi & Functional Genomics Lab.<br>
+Department of Life Science<br>
+National Institute of Technology, Rourkela<br> Rourkela - 769 008 Odisha, INDIA
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+917052101786" class="footer-link">+91-(0661)246-2685</a>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:vivek.iitian@gmail.com" class="footer-link">vivek.iitian@gmail.com</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 All Rights Reserved by XLNC.io
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+
+  <script src="{{ url_for('static', path='assets/assets/js/jquery-3.2.1.min.js') }}"></script>
+  <script src="{{ url_for('static', path='assets/assets/js/popper.min.js') }}"></script>
+  <script src="{{ url_for('static', path='assets/assets/js/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', path='assets/assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js') }}"></script>
+  <script src="{{ url_for('static', path='assets/assets/plugins/slider/js/owl.carousel.min.js') }}"></script>
+  <script src="{{ url_for('static', path='assets/assets/js/script.js') }}"></script>
+
+  <script src="{{ url_for('static', path='assets/js/script.js') }}" defer></script>
+
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    $("#pop").on("click", function() {
+$('#imagepreview').attr('src', $('#imageresource').attr('src')); // here asign the image to the modal when the user click the enlarge link
+$('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+});
+
+$("#pop1").on("click", function() {
+$('#imagepreview').attr('src', $('#imageresource1').attr('src')); // here asign the image to the modal when the user click the enlarge link
+$('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+});
+
+$("#pop2").on("click", function() {
+$('#imagepreview').attr('src', $('#imageresource2').attr('src')); // here asign the image to the modal when the user click the enlarge link
+$('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+});
+
+
+$("#pop3").on("click", function() {
+$('#imagepreview').attr('src', $('#imageresource3').attr('src')); // here asign the image to the modal when the user click the enlarge link
+$('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+});
+$("#pop4").on("click", function() {
+$('#imagepreview').attr('src', $('#imageresource4').attr('src')); // here asign the image to the modal when the user click the enlarge link
+$('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+});
+</script>
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+

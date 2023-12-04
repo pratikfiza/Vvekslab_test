@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<div class="signup" style="padding: 50px;">
+          
+  <label class="" style="font-size:35px ;">Admin Login</label><br><br><br>
+<label class="form-label">User Name</label>
+<input id="username" type="email" class="form-control" placeholder="Enter email"><br>
+<label class="form-label">Password</label>
+<input id="password" type="password" class="form-control"  placeholder="Password"  autocomplete="off">
+<br>
+        
+      <button type="submit" onclick="validate_user()" class="btn btn-primary w-100">Login</button>
+            
+
+    <script>
+    function validate_user()
+    {
+        $.ajax({
+        data: JSON.stringify({
+            user_name : $('#username').val(),
+            password : $('#password').val()
+        })
+        ,
+        type : 'POST',
+        url : '/validate_credentials',
+        contentType: "application/json; charset=utf-8"
+    })
+    .done(function(data) {
+        if (data.success) {
+          document.location.href = '/redirect_page?token='+data.token
+        }
+        else {
+            
+        }
+    });
+        }
+    
+    
+    
+    
+    </script>
+
+    <script src="./static/dist/js/tabler.min.js?1668287865" defer></script>
+    <script src="./static/dist/js/demo.min.js?1668287865" defer></script>
+  </body>
+</html>

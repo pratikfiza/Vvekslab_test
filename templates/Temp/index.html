@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www.vvekslab.in</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/css/all.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/css/animate.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/plugins/slider/css/owl.carousel.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/plugins/slider/css/owl.theme.default.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/css/style.css') }}" rel="stylesheet">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./logo.png" type="image/svg+xml">
+
+<!-- 
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="assets/assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/assets/css/style.css" /> -->
+
+
+    <link href="{{ url_for('static', path='/assets/css/style.css') }}" rel="stylesheet">
+
+    <!-- 
+      - google font link
+    -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+      rel="stylesheet">
+      <link href="{{ url_for('static', path='/assets/plugins/slider/css/owl.carousel.min.css') }}" rel="stylesheet" >
+      <link href="{{ url_for('static', path='/assets/plugins/slider/css/owl.theme.default.css') }}" rel="stylesheet" >
+      <link href="{{ url_for('static', path='/assets/css/style.css') }}" rel="stylesheet" type="text/css">
+  
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="contact-list">
+
+          <li class="contact-item">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <a href="mailto:vivek.iitian@gmail.com" class="contact-link">vivek.iitian@gmail.com</a>
+          </li>
+
+          <li class="contact-item">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <a href="tel:+917052101786" class="contact-link">+91-7052-101-786</a>
+          </li>
+
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="/" class="logo">Vvekslab</a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li>
+              <a href="/" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="/research" class="navbar-link" data-nav-link>Research</a>
+            </li>
+
+            <li>
+              <a href="/teams" class="navbar-link" data-nav-link>Teams</a>
+            </li>
+
+            <li>
+              <a href="/publication" class="navbar-link" data-nav-link>Publication</a>
+            </li>
+
+            <li>
+              <a href="/labnews" class="navbar-link" data-nav-link>Labnews </a>
+            </li>
+
+            <li>
+              <a href="/gallery" class="navbar-link" data-nav-link>Gallery</a>
+            </li>
+
+            <li>
+              <a href="/contactus" style="margin-right: 15px;"class="navbar-link" data-nav-link>ContactUs</a>
+            </li>
+
+          </ul>
+        </nav>
+        
+        <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+          <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+          <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+        </button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+  <main style="background-image: url('./assets/images/hero-bg.png');">
+    <article >
+
+      <!-- 
+        - #HERO
+      -->
+
+       <!-- ******************** Slider Starts Here ******************* -->
+    <div class="slider" id="home">
+      <!-- Set up your HTML -->
+      <div class="owl-carousel ">
+          <div class="slider-img">
+              <div class="item">
+                
+                  <div class="slider-img" style="margin-top:60px;"><img src="{{ url_for('static', path='/assets/images/img2.jpg') }}" alt=""></div>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+                              <div class="animated bounceInDown slider-captions" style="display:inline;margin-top:255px;">
+                                  <h1 class="slider-title" style="margin-top:295px;">Vvekslab</h1>
+                                  <p class="slider-text hidden-xs">Our RNAi lab focuses on study of crosstalks or interference mediated by regulatory non-coding RNAs (rncRNAs),</p>
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="item">
+              <div class="slider-img" style="margin-top:60px;"><img src="{{ url_for('static', path = '/assets/images/Slider/slider2.jpg' ) }}"></div>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+                          <div class="slider-captions " style="display:inline; margin-left: 45px;">
+                              <h1 class="slider-title">Vvekslab</h1>
+                              <p class="slider-text hidden-xs">Our laboratory strives to perform cutting-edge interdisciplinary research in an exciting and highly collaborative environment</p>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="item">
+            
+              <div class="slider-img" style="margin-top:60px;"><img src="{{ url_for('static', path = '/assets/images/img3.jpeg' ) }}" alt=""></div>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+                          <div class="slider-captions" style="display:inline; margin-left: 85px;">
+                              <h1 class="slider-title">Vvekslab</h1>
+                              <p class="slider-text hidden-xs">Vvekslab inner</p>
+                             
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- <div class="item">
+            <div class="slider-img" style="margin-top:60px;"><img src="assets/images/Slider/slider1.jpg" alt=""></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+                        <div class="slider-captions " style="display:inline; margin-left: 45px;">
+                            <h1 class="slider-title">It's time for better help.</h1>
+                            <p class="slider-text hidden-xs">Come and join Sampark</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+      
+      </div>
+  </div>                 
+             
+
+
+  <section class="section hero"  style="background-image: url('./assets/images/hero-bg.png');"
+  aria-label="hero">
+  <div class="container" style="margin-left: -9px;">
+
+    <div class="hero-content">
+  
+
+      <!-- <p class="section-subtitle"> About Us</p> -->
+
+      <h1 class="h2 hero-title">Research Overview</h1>
+
+      <p class="hero-text">
+        Our laboratory strives to perform cutting-edge interdisciplinary research in an exciting and highly collaborative environment with an aim to uncover and characterize the 98.5% of the human genome that does not code for proteins, which we call non-coding RNAs (ncRNAs) (microRNA, piRNA, ceRNA, lncRNA) – the promising rheostats of gene regulation and decrypt their role controlling development and diseases, especially in cancers by applying molecular biology techniques coupled with high-throughput omics approaches in cell lines and in vivo models.                                 
+      </p>
+
+      <!-- <ul class="contact">
+
+        <li class="contact-item">
+          <ion-icon name="mail-outline"></ion-icon>
+
+          <a href="mailto:vivek.iitian@gmail.com" class="contact-link">vivek.iitian@gmail.com</a>
+        </li>
+<br>
+        <li class="contact-item">
+          <ion-icon name="call-outline"></ion-icon>
+
+          <a href="tel:+917052101786" class="contact-link">+91-(0661)246-2685</a>
+        </li>
+
+      </ul>
+   -->
+    
+<br>
+      <!-- <form action="" class="hero-form">
+        <input type="email" name="email_address" aria-label="email" placeholder="Your Email Address..." required
+          class="email-field">
+
+        <button type="submit" class="btn">Get Call Back</button>
+      </form> -->
+
+      <a href="reseach.html" class="btn">Read more</a>
+    </div>
+
+    <!-- <figure class="hero-banner">
+      <img src="./assets/images/sir.jpg" width="587" height="839" alt="hero banner" class="w-100"> 
+    </figure> -->
+
+ 
+  </div>
+</section>
+
+
+<section class="section hero"  style="background-image: url('{{ url_for('static', path = '/assets/images/hero-bg.png' ) }}');"
+aria-label="hero">
+<div class="container" style="margin-left: -9px;">
+
+  <div class="hero-content">
+
+
+    <!-- <p class="section-subtitle"> About Us</p> -->
+
+    <h1 class="h2 hero-title">Mission</h1>
+
+    <p class="hero-text">
+      Uncovering the dark matter of the genome, and its role in the development and diseases, especially in cancer by integrating multi-disciplinary omics and molecular biology approaches.
+    <br>• Noncoding RNAs 
+    <br>• Gene silencing and regulation
+    <br>• Developing new technologies
+.                                 
+    </p>
+
+    <!-- <ul class="contact">
+
+      <li class="contact-item">
+        <ion-icon name="mail-outline"></ion-icon>
+
+        <a href="mailto:vivek.iitian@gmail.com" class="contact-link">vivek.iitian@gmail.com</a>
+      </li>
+<br>
+      <li class="contact-item">
+        <ion-icon name="call-outline"></ion-icon>
+
+        <a href="tel:+917052101786" class="contact-link">+91-(0661)246-2685</a>
+      </li>
+
+    </ul>
+ -->
+  
+<br>
+    <!-- <form action="" class="hero-form">
+      <input type="email" name="email_address" aria-label="email" placeholder="Your Email Address..." required
+        class="email-field">
+
+      <button type="submit" class="btn">Get Call Back</button>
+    </form> -->
+
+    <a href="reseach.html" ></a>
+  </div>
+
+  <figure class="hero-banner">
+    
+    <img src="{{ url_for('static', path = '/assets/images/Slider/slider5.png' ) }}" width="587" height="839" alt="hero banner" class="w-50"> 
+  </figure> 
+
+
+</div>
+</section>
+
+
+
+
+<section class="section hero"  style="background-image: url('./assets/images/hero-bg.png');margin-top: -125px;"
+aria-label="hero">
+<div class="container" style="margin-left: -9px;">
+
+  <div class="hero-content">
+
+
+    <!-- <p class="section-subtitle"> About Us</p> -->
+
+    <h1 class="h2 hero-title">Vission</h1>
+
+    <p class="hero-text">
+      Be undaunted and think big. <br>
+      Because we believe that size of your success is determined by size of your thinking. 
+.                                 
+    </p>
+
+    <!-- <ul class="contact">
+
+      <li class="contact-item">
+        <ion-icon name="mail-outline"></ion-icon>
+
+        <a href="mailto:vivek.iitian@gmail.com" class="contact-link">vivek.iitian@gmail.com</a>
+      </li>
+<br>
+      <li class="contact-item">
+        <ion-icon name="call-outline"></ion-icon>
+
+        <a href="tel:+917052101786" class="contact-link">+91-(0661)246-2685</a>
+      </li>
+
+    </ul>
+ -->
+  
+<br>
+    <!-- <form action="" class="hero-form">
+      <input type="email" name="email_address" aria-label="email" placeholder="Your Email Address..." required
+        class="email-field">
+
+      <button type="submit" class="btn">Get Call Back</button>
+    </form> -->
+
+    <a href="reseach.html" ></a>
+  </div>
+
+  <figure class="hero-banner">
+    <img src="./assets/images/vission.png" width="587" height="839" alt="hero banner" class="w-50"> 
+  </figure> 
+
+
+</div>
+</section>
+
+
+
+
+
+<section class="section cta" aria-label="cta" style="background-image: url('./assets/images/hero-bg.png');">
+  <div class="container">
+
+    <figure class="cta1-banner">
+      <img src="./assets/images/gallery3.png" width="1056" height="1076" loading="lazy" alt="cta banner"
+        class="w-100">
+    </figure>
+
+    <div class="cta-content">
+
+      <!-- <p class="section-subtitle">RESEARCH OPPORTUNITIES</p> -->
+
+      <h2 class="h2 h2 hero-title" >
+        Goals</h2>
+
+         <p class="hero-text">   
+           • Train the young minds and impart a sense of inquisitiveness in them
+          <br>• Create/train next generation of scientists
+          <br>• Collaborate to solve arduous problems
+          <br>• Develop societal technological innovations
+      </p> 
+      <!-- <a href="#" class="btn">Click Here</a> -->
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+      <section class="section hero"  style="background-image: url('./assets/images/hero-bg.png');"
+        aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+        
+
+            <p class="section-subtitle"> Principal Investigator</p>
+
+            <h1 class="h2 hero-title">Dr. Bibekanand Mallick, <br>MNASc.</h1>
+
+            <p class="hero-text">
+              National Institute of Technology Rourkela, -<br>Rourkela  769 008
+
+              Odisha, India  <br>
+              Associate Professor and Ex-HoD,-<br>
+Department of Life Science,                                      
+            </p>
+
+            <ul class="contact">
+
+              <li class="contact-item">
+                <ion-icon name="mail-outline"></ion-icon>
+    
+                <a href="mailto:vivek.iitian@gmail.com" class="contact-link">vivek.iitian@gmail.com</a>
+              </li>
+    <br>
+              <li class="contact-item">
+                <ion-icon name="call-outline"></ion-icon>
+    
+                <a href="tel:+917052101786" class="contact-link">+91-(0661)246-2685</a>
+              </li>
+    
+            </ul>
+        
+          
+<br>
+            <!-- <form action="" class="hero-form">
+              <input type="email" name="email_address" aria-label="email" placeholder="Your Email Address..." required
+                class="email-field">
+
+              <button type="submit" class="btn">Get Call Back</button>
+            </form> -->
+            <p>
+              <h1>FUNDING/RESEARCH SUPPORT</h1><br>
+  <b>Title:</b> Epithelial-mesenchymal transition regulators in radioresistance and DNA repair<br>
+  <b>Funding Source:</b> NIH/NCI<br>
+  <b>Role: </b>Principal Investigator<br>
+            </p>
+
+
+            <a href="reseach.html" class=""></a>
+          </div>
+        
+
+          <figure class="hero-banner">
+            <img src="./assets/images/sir.jpg" width="587" height="839" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <!-- <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">Our Services</p>
+
+          <h2 class="h2 section-title text-center">What We Provide</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Root Canal</h3>
+
+                  <p class="card-text">
+                    Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Alignment Teeth</h3>
+
+                  <p class="card-text">
+                    Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Cosmetic Teeth</h3>
+
+                  <p class="card-text">
+                    Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-banner">
+              <figure>
+                <img src="./assets/images/service-banner.png" width="409" height="467" loading="lazy"
+                  alt="service banner" class="w-100">
+              </figure>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Oral Hygiene</h3>
+
+                  <p class="card-text">
+                    Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-5.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Live Advisory</h3>
+
+                  <p class="card-text">
+                    Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-6.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Cavity Inspection</h3>
+
+                  <p class="card-text">
+                    Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+ -->
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <!-- <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="470" height="538" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Us</p>
+
+            <h2 class="h2 section-title">We Care For Your Dental Health</h2>
+
+            <p class="section-text section-text-1">
+              Aliquam ac sem et diam iaculis efficitur. Morbi in enim odio. Nullam quis volutpat est, sed dapibus
+              sapien. Cras
+              condimentum eu velit id tempor. Curabitur purus sapien, cursus sed nisl tristique, commodo vehicula arcu.
+            </p>
+
+            <p class="section-text">
+              Aliquam erat volutpat. Aliquam enim massa, sagittis blandit ex mattis, ultricies posuere sapien. Morbi a
+              dignissim enim.
+              Fusce elementum, augue in elementum porta, sapien nunc volutpat ex, a accumsan nunc lectus eu lectus.
+            </p>
+
+            <a href="#" class="btn">Read more</a>
+
+          </div>
+
+        </div>
+      </section> -->
+
+
+
+
+
+      <!-- 
+        - #DOCTOR
+      -->
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="cta">
+        <div class="container">
+
+          <figure class="cta-banner">
+            <img src="./assets/images/phd.jpg" width="1056" height="1076" loading="lazy" alt="cta banner"
+              class="w-100">
+          </figure>
+
+          <div class="cta-content">
+
+            <p class="section-subtitle">RESEARCH OPPORTUNITIES</p>
+
+            <h2 class="h2 section-title">
+              For current Ph.D. openings,</h2>
+
+            <a href="contactUs.html" class="btn">Click Here</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <!-- <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <p class="section-subtitle text-center">Our Blog</p>
+
+          <h2 class="h2 section-title text-center">Latest Blog & News</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                  <img src="./assets/images/blog-1.jpg" width="1180" height="800" loading="lazy"
+                    alt="Cras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                  <div class="card-badge">
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time class="time" datetime="2022-03-24">24th March 2022</time>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Cras accumsan nulla nec lacus ultricies placerat.</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.
+                  </p>
+
+                  <a href="#" class="card-link">Read More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                  <img src="./assets/images/blog-2.jpg" width="1180" height="800" loading="lazy"
+                    alt="Dras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                  <div class="card-badge">
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time class="time" datetime="2022-03-24">24th March 2022</time>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Dras accumsan nulla nec lacus ultricies placerat.</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.
+                  </p>
+
+                  <a href="#" class="card-link">Read More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                  <img src="./assets/images/blog-3.jpg" width="1180" height="800" loading="lazy"
+                    alt="Seas accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                  <div class="card-badge">
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time class="time" datetime="2022-03-24">24th March 2022</time>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Seas accumsan nulla nec lacus ultricies placerat.</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.
+                  </p>
+
+                  <a href="#" class="card-link">Read More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> -->
+
+    </article>
+  </main>
+
+
+
+
+ 
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Vvekslab</a>
+
+          <p class="footer-text">
+            RNAi & Functional Genomics Lab.
+
+            Department of Life Science
+            National Institute of Technology, Rourkela
+            Rourkela - 769 008
+            Odisha, INDIA
+          </p>
+
+          <div class="schedule">
+            <div class="schedule-icon">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+
+            <span class="span">
+              Monday - Saturday:<br>
+              9:00am - 10:00Pm
+            </span>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Other Links</p>
+          </li>
+
+          <li>
+            <a href="index.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="teams.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Teams</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="reseach.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Research</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Project</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="teams.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Our Team</span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="gallery.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Gallery</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="uselink.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Useful Links</span>
+            </a>
+          </li>
+
+        </ul>
+
+      
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="item-text">
+              RNAi & Functional Genomics Lab.<br>
+Department of Life Science<br>
+National Institute of Technology, Rourkela<br> Rourkela - 769 008 Odisha, INDIA
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+917052101786" class="footer-link">+91-7052-101-786</a>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:vivek.iitian@gmail.com" class="footer-link">vivek.iitian@gmail.com</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 All Rights Reserved by XLNC.io
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  
+
+  <script src="{{ url_for('static', path='/assets/js/jquery-3.2.1.min.js') }}"></script>
+  <script src="{{ url_for('static', path='/assets/js/popper.min.js') }}"></script>
+  <script src="{{ url_for('static', path='/assets/js/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', path='/assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js') }}"></script>
+  <script src="{{ url_for('static', path='/assets/plugins/slider/js/owl.carousel.min.js') }}"></script>
+  <script src="{{ url_for('static', path='/assets/js/script.js') }}"></script>
+  <script src="{{ url_for('static', path='/assets/js/script.js') }}" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

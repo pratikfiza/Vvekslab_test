@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www.vvekslab.in</title>
+
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./logo.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <style>
+  .moreText {
+    display: none;
+  }
+  .read-more-btn {
+    padding: 15px 60px;
+    background-color: rgb(149, 170, 197);
+    color: rgb(53, 49, 49);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .card-text.show-more .moreText {
+    display: inline;
+  }
+  .card-text.show-more .dots {
+    display: none;
+  }</style>
+ <link href="{{ url_for('static', path='assets/css/style.css') }}" rel="stylesheet">
+
+
+
+
+ <!-- 
+   - google font link
+ -->
+ <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="preconnect">
+ <link href="https://fonts.gstatic.com" rel="preconnect">
+ 
+ <link
+   href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+   rel="stylesheet">
+
+   <link href="{{ url_for('static', path='assets/assets/plugins/slider/css/owl.carousel.min.css') }}" rel="stylesheet">
+
+   <link href="{{ url_for('static', path='assets/assets/plugins/slider/css/owl.theme.default.css') }}" rel="stylesheet">
+
+   <link href="{{ url_for('static', path='assets/assets/css/style.css') }}" rel="stylesheet" type="text/css">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="contact-list">
+
+          <li class="contact-item">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <a href="mailto:vivek.iitian@gmail.com" class="contact-link">vivek.iitian@gmail.com</a>
+          </li>
+
+          <li class="contact-item">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <a href="tel:+917052101786" class="contact-link">+91-(0661)246-2685</a>
+          </li>
+
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="index.html" class="logo">Vvekslab</a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li>
+              <a href="/" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="/research" class="navbar-link" data-nav-link>Research</a>
+            </li>
+
+            <li>
+              <a href="/teams" class="navbar-link" data-nav-link>Teams</a>
+            </li>
+
+            <li>
+              <a href="/publication" class="navbar-link" data-nav-link>Publication</a>
+            </li>
+
+            <li>
+              <a href="/labnews" class="navbar-link" data-nav-link>Labnews </a>
+            </li>
+
+            <li>
+              <a href="/gallery" class="navbar-link" data-nav-link>Gallery</a>
+            </li>
+
+            <li>
+              <a href="/contactus" style="margin-right: 15px;"class="navbar-link" data-nav-link>ContactUs</a>
+            </li>
+
+          </ul>
+        </nav>
+
+
+
+        <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+          <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+          <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+        </button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+  <main>
+  
+    <!-- 
+      - #HERO
+    -->
+
+     <!-- ******************** Slider Starts Here ******************* -->
+
+
+
+
+
+
+
+
+
+    <!-- 
+      - #SERVICE
+    -->
+
+
+
+
+
+    <!-- 
+      - #ABOUT
+    
+
+
+
+   
+
+
+
+
+    
+
+   
+
+
+
+
+
+    <
+      - #BLOG
+    -->
+
+    <section class="section blog" id="blog" aria-label="blog">
+      <div class="container">
+
+        <p class="section-subtitle text-center">Research</p>
+
+        <h2 class="h2 section-title text-center">Latest Research</h2>
+
+        <ul class="blog-list">
+
+          <li>
+            <div class="blog-card">
+
+              <figure class="card-banner img-holder" style="--width: 180; --height: 80;">
+                <img src="./assets/images/img1.png" width="1180" height="800" loading="lazy"
+                  alt="Cras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                <div class="card-badge">
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time class="time" datetime="2022-03-24">24th March 2022</time>
+                </div>
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title"> Decoding ncRNAs as Diagnostic, Prognostic, and Therapeutic markers/tools for Human Cancers</a>
+                </h3>
+
+                <p class="card-text">
+                 
+                  It is now believed that rncRNAs, such as miRNAs, lncRNAs and piRNAs are promising rheostats of gene regulation  as they target a significant 
+                   <span id="dots"class="dots" style="display:inline;">....</span>
+                  
+                   <span id="more"class="moreText">
+                   fraction of genes
+                   in a genome. 
+                      The dysregulation of these rncRNAs are associated with cellular dysfunctions leading to diseases, such as cancers, neurodegenerative diseases and many more. 
+                   Moreover, some of these rncRNAs are reported to function as oncogenes or tumor suppressor genes.<br>
+                   Seeing the differential characteristic expression patterns of mRNAs as well as 
+                      rncRNAs in carcinomas, such as breast cancer and ovarian cancer (two major female cancers), we propose that the interplay between genes/mRNAs and epigenetic events 
+ 
+                     (DNA hyper/hypo- methylation and histone modifications) or genes/mRNAs and rncRNAs (miRNAs/piRNAs) might be playing a major role in the initiation and metastatic spread of these females malignancies. 
+                     Breast cancer is the most commonly diagnosed cancer in women, whereas ovarian cancer is less common, but the fifth most lethal cancer in women as it’s symptoms are obscure which make it much harder to detect this gynaecological cancer. 
+                     Seeing the lethality of these cancers, our lab is focussed to identify genomic and epigenomic hub operating in these two female malignancies to bridge the gap of understanding of regulation at molecular level with an aim to develop rncRNA-based therapeutics and diagnostic markers for these two cancers.
+                      Investigations are underway to decrypt the roles of rncRNAs and epigenetic events (hyper/hypo- methylation) in understanding the oncogenetic/metastatic events in these two malignancies by integrating expression profiling and analysis, next-generation sequencing, target analysis (reporter assays), 
+                      methylation studies (bisulfite sequencing) and inhibition/over-expression 
+                      studies in cell lines to identify potential rncRNA-biomarkers, especially piRNA biomarkers and predict key epigenome–rncRNA-mRNA regulatory circuits responsible for malignant growth or metastasis which in turn might help in diagnosis and treatment of these female cancers.
+                    </span>
+                  
+                  
+                </p>
+
+                <!-- <a href="#" class="card-link">Read More</a> -->
+                <button class="read-more-btn" id="myBtn" onclick="myFunction()">Read More</button>
+
+              </div>
+
+            </div>
+          </li>
+
+
+   
+          
+
+<li>
+  <div class="blog-card">
+  
+  <figure class="card-banner img-holder" style="--width: 180; --height: 80;">
+  <img src="./assets/images/img2.jpg" width="1180" height="800" loading="lazy"
+  alt="Dras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+  
+  <div class="card-badge">
+  <ion-icon name="calendar-outline"></ion-icon>
+  
+  <time class="time" datetime="2022-03-24">24th March 2022</time>
+  </div>
+  </figure>
+  
+  <div class="card-content">
+  
+  <h3 class="h3">
+  <a href="#" class="card-title">piRNAs and other ncRNAs surmounting Chemoresistance in Cancer
+  </a>
+  </h3>
+  
+  <p class="card-text">
+  Several GWAS studies have reported single nucleotide polymorphisms (SNPs) or INDELs to be associated with susceptibility of diseases, 
+  <span id="dots1"class="dots" style="display:inline;">....</span>
+  <span id="more1"class="moreText">
+  such as cancer (breast cancer, ovarian cancer) as well as neurodegenerative diseases (Parkinson’s disease, Alzheimer’s disease).
+  The underlying mechanisms of disease associations are generally explained for non-synonymous SNPs present within coding regions of the genes. However, roles of SNPs that are present elsewhere (5’UTR, 3’UTR)
+  in the genome, but found to be associated with these diseases remain largely unknown. 
+  It is well known that miRNAs target mostly 3’UTR and rarely 5’UTR of mRNAs through complementary base pairing with 2-7/8 nts
+  of miRNA and regulate expression of corresponding target mRNAs. Therefore, mutations/SNPs reported in 3’UTR and 5’UTR of 
+  the genes associated with above diseases might lead to creation of new target sites or destruction of target sites for miRNAs differentially expressed in these diseases. 
+  This will help in understanding aetiology of diseases through impact of SNPs located elsewhere in the genome other than coding regions. Two parallel studies are on-going in our lab to decipher miRNA-mediated regulations interfered by the presence of SNPs and their functional 
+  consequence in cancers (breast cancer, ovarian cancer) and neurodegenerative diseases.</span>
+  </p>
+  
+  <!-- <a href="#" class="card-link">Read More</a> -->
+  
+  <button class="read-more-btn" id="myBtn1"onclick="myFunction1()">Read More</button>
+  </div>
+  
+  </div>
+  </li>
+  
+  <li>
+  <div class="blog-card">
+  
+  <figure class="card-banner img-holder" style="--width: 180; --height: 80;">
+  <img src="./assets/images/Slider/slider1.jpg" width="1180" height="800" loading="lazy"
+  alt="Cras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+  
+  <div class="card-badge">
+  <ion-icon name="calendar-outline"></ion-icon>
+  
+  <time class="time" datetime="2022-03-24">24th March 2022</time>
+  </div>
+  </figure>
+  
+  <div class="card-content">
+  
+  <h3 class="h3">
+  <a href="#" class="card-title"> Drug repurposing using signature miRNAs to find new drug(s) for endometriosis-associated infertility and other diseases</a>
+  </h3>
+  
+  <p class="card-text">
+  Besides malignancies, miRNAs have been found to have critical roles in self-renewal, pluripotency and differentiation of embryonic stem cells (ESCs).
+  <span class="dots" id="dots2" style="display: inline;">...</span>
+  <span id="more2"class="moreText">
+  fraction of genes
+  in a genome. 
+  The dysregulation of these rncRNAs are associated with cellular dysfunctions leading to diseases, such as cancers, neurodegenerative diseases and many more. 
+  Moreover, some of these rncRNAs are reported to function as oncogenes or tumor suppressor genes.<br>
+  Seeing the differential characteristic expression patterns of mRNAs as well as 
+  rncRNAs in carcinomas, such as breast cancer and ovarian cancer (two major female cancers), we propose that the interplay between genes/mRNAs and epigenetic events 
+  (DNA hyper/hypo- methylation and histone modifications) or genes/mRNAs and rncRNAs (miRNAs/piRNAs) might be playing a major role in the initiation and metastatic spread of these females malignancies. 
+  Breast cancer is the most commonly diagnosed cancer in women, whereas ovarian cancer is less common, but the fifth most lethal cancer in women as it’s symptoms are obscure which make it much harder to detect this gynaecological cancer. 
+  Seeing the lethality of these cancers, our lab is focussed to identify genomic and epigenomic hub operating in these two female malignancies to bridge the gap of understanding of regulation at molecular level with an aim to develop rncRNA-based therapeutics and diagnostic markers for these two cancers.
+  Investigations are underway to decrypt the roles of rncRNAs and epigenetic events (hyper/hypo- methylation) in understanding the oncogenetic/metastatic events in these two malignancies by integrating expression profiling and analysis, next-generation sequencing, target analysis (reporter assays), 
+  methylation studies (bisulfite sequencing) and inhibition/over-expression 
+  studies in cell lines to identify potential rncRNA-biomarkers, especially piRNA biomarkers and predict key epigenome–rncRNA-mRNA regulatory circuits responsible for malignant growth or metastasis which in turn might help in diagnosis and treatment of these female cancers.</span>
+  </p>
+  
+  <!-- <a href="#" class="card-link">Read More</a> -->
+  <button class="read-more-btn" id="myBtn2" onclick="myFunction2()">Read More</button>
+  
+  </div>
+  
+  </div>
+  </li>
+  
+  
+  <li>
+  <div class="blog-card">
+  
+  <figure class="card-banner img-holder" style="--width: 180; --height: 80;">
+  <img src="./assets/images/Slider/slider2.jpg" width="1180" height="800" loading="lazy"
+  alt="Cras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+  
+  <div class="card-badge">
+  <ion-icon name="calendar-outline"></ion-icon>
+  
+  <time class="time" datetime="2022-03-24">24th March 2022</time>
+  </div>
+  </figure>
+  
+  <div class="card-content">
+  
+  <h3 class="h3">
+  <a href="#" class="card-title"> Dissecting the route of spread of cancer</a>
+  </h3>
+  
+  <p class="card-text">
+  Metastasis is another major challenge that limit the cancer therapy.
+  The rates and routes of spread of cancer are poorly understood owing to a lack of molecularly characterized patient cohorts, lack of correlation between clinical features of primary and secondary cancer, 
+  <span id="dots3"class="dots" style="display:inline;">....</span>
+  <span id="more3"class="moreText">
+  and lack of correlation between genomic features, such as differential expression of ncRNAs, and target genes in primary and secondary tumor. We propose to decrypt signature ncRNAs that dictate the susceptibility of a cancer to develop a secondary cancer, its route and site of developing secondary tumor. We propose to use high-throughput methodologies, expression profiles from relevant NGS studies, clinical features of tumor and develop a model that will help to understand how the cancer cells spread from the primary site to the secondary site through the process of metastasis. 
+  </span>
+  </p>
+  
+  <!-- <a href="#" class="card-link">Read More</a> -->
+  <button id="myBtn3"class="read-more-btn" onclick="myFunction3()">Read More</button>
+  
+  </div>
+  
+  </div>
+  </li>
+  
+ 
+        </ul>
+
+      </div>
+    </section>
+
+
+  </article>
+
+
+  <section style="margin:30px ; margin-left:40px">
+    
+    <h1 class="h2 section-title text-center" style="text-align:center ;">Funding Research Support</h1>
+    <br>
+    <p style="margin-left: 10px;text-align:justify;letter-spacing: 1px;"><b>Title:</b> Gomutra ark as a potent anti-cancer agent for the treatment of oral squamous cell carcinoma- Molecular mechanisms underlying its anti-cancer effect<br>
+      <b>Funding Source:</b> Ayush<br>
+      <b>Role:</b> Principal Investigator<br>
+    </p>
+    <br>
+    <p style="margin-left: 10px;text-align:justify;letter-spacing: 1px;">
+      <b>Title:</b> Identification of new drug(s) for treating Endometriosis-associated Infertility by drug repurposing using signature MicroRNAs<br>
+<b>Funding Source:</b> ICMR<br>
+<b>Role: </b>Principal Investigator
+    </p>
+    <br>
+    <p style="margin-left: 10px;text-align:justify;letter-spacing: 1px;">
+      <b>Title:</b> Genome-wide profiling of PIWI-interacting RNAs (piRNAs) by Next-Generation Sequencing and investigating their role in Oral Squamous Cell Carcinoma<br>
+<b>Funding Source:</b> DBT<br>
+<b>Role: </b>Principal Investigator<br>
+    </p>
+<br>
+    <p style="margin-left: 10px;text-align:justify;letter-spacing: 1px;">
+      <b>Title:</b> SNP mediated changes in the structure of VPS26A mRNA and its implication in the aetiology of Diabetes.<br>
+<b>Funding Source:</b> ICMR<br>
+<b>Role: </b>Co-Principal Investigator<br>
+    </p>
+<br>
+<p style="margin-left: 10px;text-align:justify;letter-spacing: 1px;">
+  <b>Title:</b> Integration Polymorphisms and NGS in dissecting complex networks of mi RNA-mediated regulation in neurodegenerative diseases<br>
+<b>Funding Source:</b> DST<br>
+<b>Role:</b> Principal Investigator<br>
+</p>
+<br>
+<p style="margin-left: 10px;text-align:justify;letter-spacing: 1px;">
+  <b>Title:</b> Identification of piRNA associated genomic and epigenomic regulatory networks in ovarian cancer<br>
+<b>Funding Source:</b> DST<br>
+<b>Role:</b> Mentor
+</p>
+<br>
+<p style="margin-left: 10px;text-align:justify;letter-spacing: 1px;">
+  <b>Title:</b> Decoding the Dominant microRNA-mediated Pluripotency Networks in Stem Cells<br>
+<b>Funding Source:</b> CSIR<br>
+<b>Role:</b> Principal Investigator
+</p>
+<br>
+<p style="margin-left: 10px;text-align:justify;letter-spacing: 1px;">
+  <b>Title:</b> Investigation on seaweed based synbiotic formulation for combating malnutrition in Sundargarh District of Odisha<br>
+<b>Funding Source: </b>DST<br>
+<b>Role:</b> Mentor<br>
+</p>
+<br>
+<p style="margin-left: 10px;text-align:justify;letter-spacing: 1px;">
+  <b>Title:</b> Structural impact of SNPs on miRNA-mediated regulation and its implication in Cancer<br>
+<b>Funding Source:</b> DBT<br>
+<b>Role: </b>Principal Investigator
+</p>
+  </section>
+</main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Vvekslab</a>
+
+          <p class="footer-text">
+            RNAi & Functional Genomics Lab.
+
+            Department of Life Science
+            National Institute of Technology, Rourkela
+            Rourkela - 769 008
+            Odisha, INDIA
+          </p>
+
+          <div class="schedule">
+            <div class="schedule-icon">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+
+            <span class="span">
+              Monday - Saturday:<br>
+              9:00am - 10:00Pm
+            </span>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Other Links</p>
+          </li>
+
+          <li>
+            <a href="index.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="teams.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Teams</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="reseach.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Research</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Project</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="teams.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Our Team</span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="gallery.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Gallery</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="uselink.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Useful Links</span>
+            </a>
+          </li>
+
+        </ul>
+
+      
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="item-text">
+              RNAi & Functional Genomics Lab.<br>
+Department of Life Science<br>
+National Institute of Technology, Rourkela<br> Rourkela - 769 008 Odisha, INDIA
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+917052101786" class="footer-link">+91-(0661)246-2685</a>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:vivek.iitian@gmail.com" class="footer-link">vivek.iitian@gmail.com</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 All Rights Reserved by XLNC.io
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+
+
+  <script src="{{ url_for('static', path='assets/assets/js/jquery-3.2.1.min.js') }}"></script>
+  <script src="{{ url_for('static', path='assets/assets/js/popper.min.js') }}"></script>
+  <script src="{{ url_for('static', path='assets/assets/js/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', path='assets/assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js') }}"></script>
+  <script src="{{ url_for('static', path='assets/assets/plugins/slider/js/owl.carousel.min.js') }}"></script>
+  <script src="{{ url_for('static', path='assets/assets/js/script.js') }}"></script>
+
+  <script src="{{ url_for('static', path='assets/js/script.js') }}" defer></script>
+
+  <!-- <script src="./assets/js/script.js" defer></script> -->
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script>
+
+// function ele1()
+// {
+// const text = document.querySelector(".card-text")
+// console.log(text);
+// console.log(document.querySelector(".read-more-btn").innerText);
+// //  document.querySelector(".read-more-btn").addEventListener("click", (e) => {
+// //   console.log("hello");
+//   text.classList.toggle("dots");
+  
+//   if (document.querySelector(".read-more-btn").innerText === "Read More") {
+    
+//     document.querySelector(".read-more-btn").innerText = "Read Less";
+//   } else {
+//     document.getElementsByClassName("read-more-btn").innerText = "Read More";
+//   }
+
+//   if(document.querySelector(".read-more-btn").innerText === "Read Less"){
+//     document.querySelector(".read-more-btn").innerText = "Read More";
+//   }
+// });
+
+
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+
+
+function myFunction1() {
+  var dots = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+function myFunction2() {
+  var dots = document.getElementById("dots2");
+  var moreText = document.getElementById("more2");
+  var btnText = document.getElementById("myBtn2");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+function myFunction3() {
+  var dots = document.getElementById("dots3");
+  var moreText = document.getElementById("more3");
+  var btnText = document.getElementById("myBtn3");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+
+
+
+
+// function ele2()
+// {
+// const text = document.querySelector(".card-text1")
+// console.log(text);
+// console.log(document.querySelector(".read-more-btn").innerText);
+// //  document.querySelector(".read-more-btn").addEventListener("click", (e) => {
+// //   console.log("hello");
+//   text.classList.toggle("show-more1");
+  
+//   if (document.querySelector(".read-more-btn1").innerText === "Read More") {
+    
+//     document.querySelector(".read-more-btn1").innerText = "Read Less";
+//   } else {
+//     document.getElementsByClassName("read-more-btn").innerText = "Read More";
+//   }
+// // });
+// }
+
+
+
+// const text1 = document.querySelector(".card-text1");
+
+// readMoreBtn.addEventListener("click", (e) => {
+//   console.log("hello");
+//   text.classList.toggle("show-more1");
+//   if (document.getElementsByClassName(read-more-btn).innerText === "Read More") {
+//     document.getElementsByClassName(read-more-btn).innerText = "Read Less";
+//   } else {
+//     document.getElementsByClassName(read-more-btn).innerText = "Read More";
+//   }
+// });
+
+
+</script>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

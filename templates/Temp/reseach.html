@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www.vvekslab.in</title>
+
+
+ 
+  <link rel="shortcut icon" href="./logo.png" type="image/svg+xml">
+
+  
+  <style>
+  .moreText {
+    display: none;
+  }
+  .read-more-btn {
+    padding: 15px 60px;
+    background-color: rgb(149, 170, 197);
+    color: rgb(53, 49, 49);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .card-text.show-more .moreText {
+    display: inline;
+  }
+  .card-text.show-more .dots {
+    display: none;
+  }</style>
+
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="assets/assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/assets/css/style.css" />
+</head> -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/assets/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/assets/css/all.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/assets/css/animate.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/assets/plugins/slider/css/owl.carousel.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/plugins/slider/css/owl.theme.default.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', path='/assets/assets/css/style.css') }}" rel="stylesheet">
+
+
+
+
+</head>
+
+
+  <link href="{{ url_for('static', path='/assets/css/style.css') }}" rel="stylesheet">
+
+  <!-- 
+    - google font link
+  -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+    rel="stylesheet">
+    <link href="{{ url_for('static', path='/assets/assets/plugins/slider/css/owl.carousel.min.css') }}" rel="stylesheet" >
+    <link href="{{ url_for('static', path='/assets/assets/plugins/slider/css/owl.theme.default.css') }}" rel="stylesheet" >
+    <link href="{{ url_for('static', path='/assets/assets/css/style.css') }}" rel="stylesheet" type="text/css">
+
+    
+
+
+
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="contact-list">
+
+          <li class="contact-item">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <a href="mailto:vivek.iitian@gmail.com" class="contact-link">vivek.iitian@gmail.com</a>
+          </li>
+
+          <li class="contact-item">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <a href="tel:+917052101786" class="contact-link">+91-7052-101-786</a>
+          </li>
+
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="/" class="logo">Vvekslab</a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li>
+              <a href="/" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="/research" class="navbar-link" data-nav-link>Research</a>
+            </li>
+
+            <li>
+              <a href="/teams" class="navbar-link" data-nav-link>Teams</a>
+            </li>
+
+            <li>
+              <a href="/publication" class="navbar-link" data-nav-link>Publication</a>
+            </li>
+
+            <li>
+              <a href="/labnews" class="navbar-link" data-nav-link>Labnews </a>
+            </li>
+
+            <li>
+              <a href="/gallery" class="navbar-link" data-nav-link>Gallery</a>
+            </li>
+
+            <li>
+              <a href="/contactus" style="margin-right: 15px;"class="navbar-link" data-nav-link>ContactUs</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+          <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+          <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+        </button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+  <main>
+  
+    <!-- 
+      - #HERO
+    -->
+
+     <!-- ******************** Slider Starts Here ******************* -->
+
+
+
+
+
+
+
+
+
+    <!-- 
+      - #SERVICE
+    -->
+
+
+
+
+
+    <!-- 
+      - #ABOUT
+    
+
+
+
+   
+
+
+
+
+    
+
+   
+
+
+
+
+
+    <
+      - #BLOG
+    -->
+
+    <section class="section blog" id="blog" aria-label="blog">
+      <div class="container">
+
+        <p class="section-subtitle text-center">Research</p>
+
+        <h2 class="h2 section-title text-center">Latest Research & News</h2>
+
+        <ul class="blog-list">
+
+          <li>
+            <div class="blog-card">
+
+              <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                <img src="./assets/images/img1.png" width="1180" height="800" loading="lazy"
+                  alt="Cras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                <div class="card-badge">
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time class="time" datetime="2022-03-24">24th March 2022</time>
+                </div>
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title"> Regulatory non-coding RNAs (rncRNAs) and epigenetic interplay in breast and ovarian cancer.</a>
+                </h3>
+
+                <p class="card-text">
+                 
+                  It is now believed that rncRNAs, such as miRNAs, lncRNAs and piRNAs are promising rheostats of gene regulation  as they target a significant  <span class="dots" style="display:inline;">....</span>
+                  
+                   <span class="moreText">
+                   fraction of genes
+                   in a genome. 
+                      The dysregulation of these rncRNAs are associated with cellular dysfunctions leading to diseases, such as cancers, neurodegenerative diseases and many more. 
+                   Moreover, some of these rncRNAs are reported to function as oncogenes or tumor suppressor genes.<br>
+                   Seeing the differential characteristic expression patterns of mRNAs as well as 
+                      rncRNAs in carcinomas, such as breast cancer and ovarian cancer (two major female cancers), we propose that the interplay between genes/mRNAs and epigenetic events 
+ 
+                     (DNA hyper/hypo- methylation and histone modifications) or genes/mRNAs and rncRNAs (miRNAs/piRNAs) might be playing a major role in the initiation and metastatic spread of these females malignancies. 
+                     Breast cancer is the most commonly diagnosed cancer in women, whereas ovarian cancer is less common, but the fifth most lethal cancer in women as it’s symptoms are obscure which make it much harder to detect this gynaecological cancer. 
+                     Seeing the lethality of these cancers, our lab is focussed to identify genomic and epigenomic hub operating in these two female malignancies to bridge the gap of understanding of regulation at molecular level with an aim to develop rncRNA-based therapeutics and diagnostic markers for these two cancers.
+                      Investigations are underway to decrypt the roles of rncRNAs and epigenetic events (hyper/hypo- methylation) in understanding the oncogenetic/metastatic events in these two malignancies by integrating expression profiling and analysis, next-generation sequencing, target analysis (reporter assays), 
+                      methylation studies (bisulfite sequencing) and inhibition/over-expression 
+                      studies in cell lines to identify potential rncRNA-biomarkers, especially piRNA biomarkers and predict key epigenome–rncRNA-mRNA regulatory circuits responsible for malignant growth or metastasis which in turn might help in diagnosis and treatment of these female cancers.</span>
+                  
+                  
+                </p>
+
+                <!-- <a href="#" class="card-link">Read More</a> -->
+                <button class="read-more-btn">Read More</button>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="blog-card">
+
+              <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                <img src="./assets/images/img2.jpg" width="1180" height="800" loading="lazy"
+                  alt="Dras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                <div class="card-badge">
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time class="time" datetime="2022-03-24">24th March 2022</time>
+                </div>
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Impact of SNPs on miRNA-mediated regulation in cancer and neurodegenerative diseases
+                  </a>
+                </h3>
+
+                <p class="card-text">
+Several GWAS studies have reported single nucleotide polymorphisms (SNPs) or INDELs to be associated with susceptibility of diseases, 
+<span class="dots" style="display:inline;">....</span>
+<span class="moreText">
+such as cancer (breast cancer, ovarian cancer) as well as neurodegenerative diseases (Parkinson’s disease, Alzheimer’s disease).
+The underlying mechanisms of disease associations are generally explained for non-synonymous SNPs present within coding regions of the genes. However, roles of SNPs that are present elsewhere (5’UTR, 3’UTR)
+in the genome, but found to be associated with these diseases remain largely unknown. 
+It is well known that miRNAs target mostly 3’UTR and rarely 5’UTR of mRNAs through complementary base pairing with 2-7/8 nts
+of miRNA and regulate expression of corresponding target mRNAs. Therefore, mutations/SNPs reported in 3’UTR and 5’UTR of 
+the genes associated with above diseases might lead to creation of new target sites or destruction of target sites for miRNAs differentially expressed in these diseases. 
+This will help in understanding aetiology of diseases through impact of SNPs located elsewhere in the genome other than coding regions. Two parallel studies are on-going in our lab to decipher miRNA-mediated regulations interfered by the presence of SNPs and their functional 
+consequence in cancers (breast cancer, ovarian cancer) and neurodegenerative diseases.</span>
+                </p>
+
+                <!-- <a href="#" class="card-link">Read More</a> -->
+
+                <button class="read-more-btn1">Read More</button>
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="blog-card">
+
+              <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                <img src="./assets/images/Slider/slider1.jpg" width="1180" height="800" loading="lazy"
+                  alt="Cras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                <div class="card-badge">
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time class="time" datetime="2022-03-24">24th March 2022</time>
+                </div>
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title"> Zooming into the dominant microRNA-mediated pluripotency networks in Stem Cells</a>
+                </h3>
+
+                <p class="card-text">
+                 
+                  Besides malignancies, miRNAs have been found to have critical roles in self-renewal, pluripotency and differentiation of embryonic stem cells (ESCs).<span class="dots" style="display: inline;">...</span>
+                  
+                   <span class="moreText">
+                   fraction of genes
+                   in a genome. 
+                      The dysregulation of these rncRNAs are associated with cellular dysfunctions leading to diseases, such as cancers, neurodegenerative diseases and many more. 
+                   Moreover, some of these rncRNAs are reported to function as oncogenes or tumor suppressor genes.<br>
+                   Seeing the differential characteristic expression patterns of mRNAs as well as 
+                      rncRNAs in carcinomas, such as breast cancer and ovarian cancer (two major female cancers), we propose that the interplay between genes/mRNAs and epigenetic events 
+ 
+                     (DNA hyper/hypo- methylation and histone modifications) or genes/mRNAs and rncRNAs (miRNAs/piRNAs) might be playing a major role in the initiation and metastatic spread of these females malignancies. 
+                     Breast cancer is the most commonly diagnosed cancer in women, whereas ovarian cancer is less common, but the fifth most lethal cancer in women as it’s symptoms are obscure which make it much harder to detect this gynaecological cancer. 
+                     Seeing the lethality of these cancers, our lab is focussed to identify genomic and epigenomic hub operating in these two female malignancies to bridge the gap of understanding of regulation at molecular level with an aim to develop rncRNA-based therapeutics and diagnostic markers for these two cancers.
+                      Investigations are underway to decrypt the roles of rncRNAs and epigenetic events (hyper/hypo- methylation) in understanding the oncogenetic/metastatic events in these two malignancies by integrating expression profiling and analysis, next-generation sequencing, target analysis (reporter assays), 
+                      methylation studies (bisulfite sequencing) and inhibition/over-expression 
+                      studies in cell lines to identify potential rncRNA-biomarkers, especially piRNA biomarkers and predict key epigenome–rncRNA-mRNA regulatory circuits responsible for malignant growth or metastasis which in turn might help in diagnosis and treatment of these female cancers.</span>
+                  
+                  
+                </p>
+
+                <!-- <a href="#" class="card-link">Read More</a> -->
+                <button class="read-more-btn">Read More</button>
+
+              </div>
+
+            </div>
+          </li>
+
+
+
+          <li>
+            <div class="blog-card">
+
+              <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                <img src="./assets/images/Slider/slider2.jpg" width="1180" height="800" loading="lazy"
+                  alt="Cras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                <div class="card-badge">
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time class="time" datetime="2022-03-24">24th March 2022</time>
+                </div>
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title"> Metastatic cascades/potential of tumors of epithelial and mesenchymal tissues of origin</a>
+                </h3>
+
+                <p class="card-text">
+                  The metastasis cascades in two classes of cancers; (a) cancer of epithelial tissues (referred to as carcinoma) and cancers of mesenchymal tissues (referred to as sarcoma) that are classified  <span class="dots" style="display:inline;">....</span>
+                  
+                   <span class="moreText">
+                   fraction of genes
+                   in a genome. 
+                      The dysregulation of these rncRNAs are associated with cellular dysfunctions leading to diseases, such as cancers, neurodegenerative diseases and many more. 
+                   Moreover, some of these rncRNAs are reported to function as oncogenes or tumor suppressor genes.<br>
+                   Seeing the differential characteristic expression patterns of mRNAs as well as 
+                      rncRNAs in carcinomas, such as breast cancer and ovarian cancer (two major female cancers), we propose that the interplay between genes/mRNAs and epigenetic events 
+ 
+                     (DNA hyper/hypo- methylation and histone modifications) or genes/mRNAs and rncRNAs (miRNAs/piRNAs) might be playing a major role in the initiation and metastatic spread of these females malignancies. 
+                     Breast cancer is the most commonly diagnosed cancer in women, whereas ovarian cancer is less common, but the fifth most lethal cancer in women as it’s symptoms are obscure which make it much harder to detect this gynaecological cancer. 
+                     Seeing the lethality of these cancers, our lab is focussed to identify genomic and epigenomic hub operating in these two female malignancies to bridge the gap of understanding of regulation at molecular level with an aim to develop rncRNA-based therapeutics and diagnostic markers for these two cancers.
+                      Investigations are underway to decrypt the roles of rncRNAs and epigenetic events (hyper/hypo- methylation) in understanding the oncogenetic/metastatic events in these two malignancies by integrating expression profiling and analysis, next-generation sequencing, target analysis (reporter assays), 
+                      methylation studies (bisulfite sequencing) and inhibition/over-expression 
+                      studies in cell lines to identify potential rncRNA-biomarkers, especially piRNA biomarkers and predict key epigenome–rncRNA-mRNA regulatory circuits responsible for malignant growth or metastasis which in turn might help in diagnosis and treatment of these female cancers.</span>
+                  
+                  
+                </p>
+
+                <!-- <a href="#" class="card-link">Read More</a> -->
+                <button class="read-more-btn">Read More</button>
+
+              </div>
+
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+  </article>
+</main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Vvekslab</a>
+
+          <p class="footer-text">
+            RNAi & Functional Genomics Lab.
+
+            Department of Life Science
+            National Institute of Technology, Rourkela
+            Rourkela - 769 008
+            Odisha, INDIA
+          </p>
+
+          <div class="schedule">
+            <div class="schedule-icon">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+
+            <span class="span">
+              Monday - Saturday:<br>
+              9:00am - 10:00Pm
+            </span>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Other Links</p>
+          </li>
+
+          <li>
+            <a href="index.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="teams.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Teams</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="gallery.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Gallery</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="uselink.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Useful links</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Our Team</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Latest Blog</span>
+            </a>
+          </li>
+
+        </ul>
+
+   
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="item-text">
+             BBSR<br>
+              
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+917052101786" class="footer-link">+91-7052-101-786</a>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:help@example.com" class="footer-link">help@example.com</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 All Rights Reserved by XLNC.io.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+
+
+  <script src="assets/assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/assets/js/popper.min.js"></script>
+<script src="assets/assets/js/bootstrap.min.js"></script>
+<script src="assets/assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="assets/assets/plugins/slider/js/owl.carousel.min.js"></script>
+<script src="assets/assets/js/script.js"></script>
+
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+<script>
+const readMoreBtn = document.querySelector(".read-more-btn");
+const text = document.querySelector(".card-text");
+
+readMoreBtn.addEventListener("click", (e) => {
+  console.log("hello");
+  text.classList.toggle("show-more");
+  if (readMoreBtn.innerText === "Read More") {
+    readMoreBtn.innerText = "Read Less";
+  } else {
+    readMoreBtn.innerText = "Read More";
+  }
+});
+
+
+const readMoreBtn1 = document.querySelector(".read-more-btn1");
+const text1 = document.querySelector(".card-text1");
+
+readMoreBtn.addEventListener("click", (e) => {
+  console.log("hello");
+  text.classList.toggle("show-more1");
+  if (readMoreBtn.innerText === "Read More") {
+    readMoreBtn.innerText = "Read Less";
+  } else {
+    readMoreBtn.innerText = "Read More";
+  }
+});
+
+
+</script>
+
+
+</body>
+
+</html>
